@@ -1,10 +1,12 @@
 {
   "mappings": [
-    "/content/aem-boilerplate/:/",
-    "/content/aem-boilerplate/configuration:/.helix/config.json",
-    "/content/aem-boilerplate/metadata:/metadata.json"
+    "/content/demosite/:/",
+    "/content/dam/assets/:/assets/",
+    "/content/demosite/configuration:/.helix/config.json",
+    "/content/demosite/metadata:/metadata.json"
   ],
   "includes": [
-    "/content/aem-boilerplate/"
+    "/content/demosite/",
+    "/content/dam/assets"
   ]
 }
